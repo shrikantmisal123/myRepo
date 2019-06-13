@@ -1,0 +1,28 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+logging:
+    file: E://logging/SSAWeb.log 
+    pattern: 
+      level: INFO
+       
+ssa:
+  SsaProperties:
+    successMessage: SSN Registration successfully done
+    failureMessage: SSn Registration failed............
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: ssa
+    password: ssa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

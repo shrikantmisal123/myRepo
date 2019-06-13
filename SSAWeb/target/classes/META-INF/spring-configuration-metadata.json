@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "ssa",
+      "type": "com.usa.federal.gov.ssa.properties.SsaProperty",
+      "sourceType": "com.usa.federal.gov.ssa.properties.SsaProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ssa.ssa-properties",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.usa.federal.gov.ssa.properties.SsaProperty"
+    }
+  ],
+  "hints": []
+}
